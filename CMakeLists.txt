@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.15)
+project(boost_graph)
+find_package(Boost REQUIRED)
+add_executable(boost_graph main.cpp)
+target_include_directories(boost_graph PRIVATE ${Boost_INCLUDE_DIRS})

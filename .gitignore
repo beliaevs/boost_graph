@@ -34,4 +34,6 @@
 # Output directories
 x64
 boost_graph
+build
+
 
